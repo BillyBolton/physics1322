@@ -18,7 +18,7 @@
  4) Copy and paste the following code:
 
  ```
- javac minMaxWave.java && java minMaxWave 525 2 10 7.9
+ javac minMaxWave.java && java minMaxWave 525 2 10 7.9 400 700
  ```
 
  ### For Apple/UNIX Machines:
