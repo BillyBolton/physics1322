@@ -89,11 +89,11 @@ public String toString(){
         b.append("\nAnswer a): " + "d = " + spacingOfSlits*100000 + " mm");
         b.append("\n");
 
-                b.append("\nQuestion 1b): ");
+        b.append("\n\nQuestion 1b): ");
         b.append("\nWhat If? What are the smallest and largest wavelengths of");
         b.append("\nvisible light that will also produce interference minima at this location?");
         b.append("\nGive your answers, in nm, to at least three significant figures.");
-        b.append("\nAssume the visible light spectrum ranges from " + lowRange + " nm to " + highRange + " nm.\n\n");
+        b.append("\nAssume the visible light spectrum ranges from " + lowRange + " nm to " + highRange + " nm.\n");
         b.append("\nAnswers for b) without rounding: ");
         b.append("\n***Minimum waveLength***: " + smallestWave + " nm");
         b.append("\nMinimum Order  " + smallestOrder);
