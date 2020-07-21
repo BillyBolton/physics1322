@@ -6,17 +6,25 @@ private double orderInterference;
 private double minimumObserved;
 private double spacingOfSlits;
 
+private int lowRange;
+private int highRange;
+
 private double smallestWave;
 private int smallestOrder;
 
 private double largestWave;
 private int largestOrder;
 
-public minMaxWave(double lambda, double l, double m, double y){
+
+
+public minMaxWave(double lambda, double l, double m, double y, int low, int high){
         waveLength = lambda;
         distanceBetweenSlitScreen = l;
         orderInterference = m-1;
         minimumObserved = y;
+
+        lowRange = low;
+        highRange = high;
 
         calculateDistance();
 
@@ -36,7 +44,7 @@ private void calculateMinimums(){
 
         smallestWave = (2*(orderInterference+0.5)*(waveLength))/n;
 
-        while (smallestWave >= 400) {
+        while (smallestWave >= lowRange) {
                 n += 2; // n must be odd;
                 smallestWave = (2*(orderInterference+0.5)*(waveLength))/n;
                 //System.out.println("\nn: " + n + "\nnewWave: " + newWave);
@@ -51,7 +59,7 @@ private void calculateMaximums(){
 
         largestWave = (2*(orderInterference+0.5)*(waveLength))/n;
 
-        while (largestWave <= 700) {
+        while (largestWave <= highRange) {
                 n -= 2; // n must be odd;
                 largestWave = (2*(orderInterference+0.5)*(waveLength))/n;
                 //System.out.println("\nn: " + n + "\nnewWave: " + newWave);
@@ -82,7 +90,7 @@ public String toString(){
 }
 
 public static void main(String args[]){
-        minMaxWave question = new minMaxWave (Double.parseDouble(args[0]), Double.parseDouble(args[1]), Double.parseDouble(args[2]), Double.parseDouble(args[3]));
+        minMaxWave question = new minMaxWave (Double.parseDouble(args[0]), Double.parseDouble(args[1]), Double.parseDouble(args[2]), Double.parseDouble(args[3]), Integer.parseInt(args[4]), Integer.parseInt(args[5]));
         //minMaxWave question = new minMaxWave (530, 2, 10, 7.10);
         //minMaxWave question = new minMaxWave (500, 2, 10, 7.10);
         System.out.println(question);
