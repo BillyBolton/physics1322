@@ -78,7 +78,7 @@ public String toString(){
         b.append("\nYoung's double-slit experiment is performed with "+ waveLength + "-nm light");
         b.append("\nand a distance of " + distanceBetweenSlitScreen + " m between the slits and the screen.");
         b.append("\nThe " + (orderInterference+1) + "th interference minimum is observed " + minimumObserved + " mm from the central maximum.");
-        b.append("\n a) Determine the spacing of the slits (in mm).\n\n");
+        b.append("\n\n1a) Determine the spacing of the slits (in mm).\n\n");
 
         b.append("\nLambda: " + waveLength + " nm");
         b.append("\nL: " + distanceBetweenSlitScreen*1000 + " mm");
@@ -86,20 +86,20 @@ public String toString(){
         b.append("\ny: " + minimumObserved + " mm");
         b.append("\nd: " + spacingOfSlits*100000 + " mm");
         b.append("\n");
-        b.append("\nAnswer a): " + "d = " + spacingOfSlits*100000 + " mm");
+        b.append("\nAnswer 1a): " + "\nd = " + spacingOfSlits*100000 + " mm");
         b.append("\n");
 
-        b.append("\n\nQuestion 1b): ");
+        b.append("\n\n1b): ");
         b.append("\nWhat If? What are the smallest and largest wavelengths of");
         b.append("\nvisible light that will also produce interference minima at this location?");
         b.append("\nGive your answers, in nm, to at least three significant figures.");
         b.append("\nAssume the visible light spectrum ranges from " + lowRange + " nm to " + highRange + " nm.\n");
-        b.append("\nAnswers for b) without rounding: ");
-        b.append("\n***Minimum waveLength***: " + smallestWave + " nm");
-        b.append("\nMinimum Order  " + smallestOrder);
+        b.append("\nAnswer 1b): ");
+        b.append("\nMinimum waveLength: " + smallestWave + " nm");
+        b.append("\n        (Minimum Order  " + smallestOrder + ")");
         b.append("\n");
-        b.append("\n***Largest waveLength***: " + largestWave + " nm");
-        b.append("\nLargest Order = " + largestOrder);
+        b.append("\nMaximum waveLength: " + largestWave + " nm");
+        b.append("\n        (Largest Order = " + largestOrder + ")");
 
         return b.toString();
 }
