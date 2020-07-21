@@ -56,9 +56,9 @@
  L: 2000.0 mm
  m: 9.0
  y: 7.9 mm
- d: 1.262658227848101E-5 mm
+ d: 1.262658227848101 mm
 
- Answer a): d: 1.262658227848101E-5 mm
+ Answer a): d: 1.262658227848101 mm
 
  What If? What are the smallest and largest wavelengths of
  visible light that will also produce interference minima at this location?
