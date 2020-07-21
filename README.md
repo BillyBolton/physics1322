@@ -60,11 +60,12 @@
 
  Answer a): d: 1.262658227848101 mm
 
+
+ Question 1b): 
  What If? What are the smallest and largest wavelengths of
  visible light that will also produce interference minima at this location?
  Give your answers, in nm, to at least three significant figures.
  Assume the visible light spectrum ranges from 400 nm to 700 nm.
-
 
  Answers for b) without rounding: 
  ***Minimum waveLength***: 433.69565217391306 nm
@@ -92,15 +93,15 @@
  L: 2000.0 mm
  m: 9.0
  y: 7.1 mm
- d: 1.4183098591549295E-5 mm
+ d: 1.4183098591549295 mm
 
- Answer a): d: 1.4183098591549295E-5 mm
+ Answer a): d: 1.4183098591549295 mm
 
+ Question 1b): 
  What If? What are the smallest and largest wavelengths of
  visible light that will also produce interference minima at this location?
  Give your answers, in nm, to at least three significant figures.
  Assume the visible light spectrum ranges from 400 nm to 700 nm.
-
 
  Answers for b) without rounding: 
  ***Minimum waveLength***: 402.8 nm
