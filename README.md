@@ -37,9 +37,9 @@
  javac minMaxWave.java && java minMaxWave 525 2 10 7.9
  ```
 
- ### Expected Output with inputs 525 2 10 7.9:
+ ### Expected Output with inputs 525 2 10 7.9 400 700:
  ```
- username@MyMac desktop % java minMaxWave 525 2 10 7.9 
+ username@MyMac desktop % java minMaxWave 525 2 10 7.9 400 700
 
  ****************************************************
  Calculations:
@@ -57,9 +57,9 @@
  Largest waveLength: 665.0 nm
  Largest Order: 15
  ```
- ### Expected Output with inputs 530 2 10 7.10:
+ ### Expected Output with inputs 530 2 10 7.10 400 700:
  ```
- username@MyMac desktop % java minMaxWave 530 2 10 7.10
+ username@MyMac desktop % java minMaxWave 530 2 10 7.10 400 700
 
  ****************************************************
  Calculations:
@@ -90,6 +90,8 @@
  * 2 = distance between the slit and the screen (in m)
  * 10 = order of interference (without subtracting 1)
  * 7.9 = minimum distance that the interference is observed
+ * 400 = the low range of the light spectrum as per question
+ * 700 = the low range of the light spectrum as per question
 
  ## Troubleshooting:
  ### Java is not installed on my Windows PC:
