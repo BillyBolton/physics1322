@@ -49,8 +49,8 @@
  Young's double-slit experiment is performed with 525.0-nm light
  and a distance of 2.0 m between the slits and the screen.
  The 10.0th interference minimum is observed 7.9 mm from the central maximum.
-  a) Determine the spacing of the slits (in mm).
-
+ 
+ 1a) Determine the spacing of the slits (in mm).
 
  Lambda: 525.0 nm
  L: 2000.0 mm
@@ -58,7 +58,7 @@
  y: 7.9 mm
  d: 1.262658227848101 mm
 
- Answer a): d: 1.262658227848101 mm
+ Answer a): d = 1.262658227848101 mm
 
 
  Question 1b): 
@@ -86,8 +86,8 @@
  Young's double-slit experiment is performed with 530.0-nm light
  and a distance of 2.0 m between the slits and the screen.
  The 10.0th interference minimum is observed 7.1 mm from the central maximum.
-  a) Determine the spacing of the slits (in mm).
-
+ 
+ 1a) Determine the spacing of the slits (in mm).
 
  Lambda: 530.0 nm
  L: 2000.0 mm
@@ -124,7 +124,7 @@
  * 10 = order of interference (without subtracting 1)
  * 7.9 = minimum distance that the interference is observed
  * 400 = the low range of the light spectrum as per question
- * 700 = the low range of the light spectrum as per question
+ * 700 = the high range of the light spectrum as per question
 
  ## Troubleshooting:
  ### Java is not installed on my Windows PC:
