@@ -74,7 +74,7 @@ public String toString(){
         b.append("\nCalculations:");
         b.append("\n****************************************************\n");
 
-        b.append("\nQuestion: ");
+        b.append("\nQuestion 1a): ");
         b.append("\nYoung's double-slit experiment is performed with "+ waveLength + "-nm light");
         b.append("\nand a distance of " + distanceBetweenSlitScreen + " m between the slits and the screen.");
         b.append("\nThe " + (orderInterference+1) + "th interference minimum is observed " + minimumObserved + " mm from the central maximum.");
@@ -84,11 +84,12 @@ public String toString(){
         b.append("\nL: " + distanceBetweenSlitScreen*1000 + " mm");
         b.append("\nm: " + orderInterference);
         b.append("\ny: " + minimumObserved + " mm");
-        b.append("\nd: " + spacingOfSlits + " mm");
+        b.append("\nd: " + spacingOfSlits*100000 + " mm");
         b.append("\n");
-        b.append("\nAnswer a): " + "d: " + spacingOfSlits + " mm");
+        b.append("\nAnswer a): " + "d = " + spacingOfSlits*100000 + " mm");
         b.append("\n");
 
+                b.append("\nQuestion 1b): ");
         b.append("\nWhat If? What are the smallest and largest wavelengths of");
         b.append("\nvisible light that will also produce interference minima at this location?");
         b.append("\nGive your answers, in nm, to at least three significant figures.");
