@@ -74,17 +74,31 @@ public String toString(){
         b.append("\nCalculations:");
         b.append("\n****************************************************\n");
 
+        b.append("\nQuestion: ");
+        b.append("\nYoung's double-slit experiment is performed with "+ waveLength + "-nm light");
+        b.append("\nand a distance of " + distanceBetweenSlitScreen + " m between the slits and the screen.");
+        b.append("\nThe " + (orderInterference+1) + "th interference minimum is observed " + minimumObserved + " mm from the central maximum.");
+        b.append("\n a) Determine the spacing of the slits (in mm).\n\n");
+
         b.append("\nLambda: " + waveLength + " nm");
         b.append("\nL: " + distanceBetweenSlitScreen*1000 + " mm");
         b.append("\nm: " + orderInterference);
         b.append("\ny: " + minimumObserved + " mm");
         b.append("\nd: " + spacingOfSlits + " mm");
         b.append("\n");
-        b.append("\nMinimum waveLength: " + smallestWave + " nm");
-        b.append("\nMinimum Order: " + smallestOrder);
+        b.append("\nAnswer a): " + "d: " + spacingOfSlits + " mm");
         b.append("\n");
-        b.append("\nLargest waveLength: " + largestWave + " nm");
-        b.append("\nLargest Order: " + largestOrder);
+
+        b.append("\nWhat If? What are the smallest and largest wavelengths of");
+        b.append("\nvisible light that will also produce interference minima at this location?");
+        b.append("\nGive your answers, in nm, to at least three significant figures.");
+        b.append("\nAssume the visible light spectrum ranges from " + lowRange + " nm to " + highRange + " nm.\n\n");
+        b.append("\nAnswers for b) without rounding: ");
+        b.append("\n***Minimum waveLength***: " + smallestWave + " nm");
+        b.append("\nMinimum Order  " + smallestOrder);
+        b.append("\n");
+        b.append("\n***Largest waveLength***: " + largestWave + " nm");
+        b.append("\nLargest Order = " + largestOrder);
 
         return b.toString();
 }
