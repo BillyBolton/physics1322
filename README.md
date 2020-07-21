@@ -45,17 +45,33 @@
  Calculations:
  ****************************************************
 
+ Question: 
+ Young's double-slit experiment is performed with 525.0-nm light
+ and a distance of 2.0 m between the slits and the screen.
+ The 10.0th interference minimum is observed 7.9 mm from the central maximum.
+  a) Determine the spacing of the slits (in mm).
+
+
  Lambda: 525.0 nm
  L: 2000.0 mm
  m: 9.0
  y: 7.9 mm
  d: 1.262658227848101E-5 mm
 
- Minimum waveLength: 433.69565217391306 nm
- Minimum Order: 23
+ Answer a): d: 1.262658227848101E-5 mm
 
- Largest waveLength: 665.0 nm
- Largest Order: 15
+ What If? What are the smallest and largest wavelengths of
+ visible light that will also produce interference minima at this location?
+ Give your answers, in nm, to at least three significant figures.
+ Assume the visible light spectrum ranges from 400 nm to 700 nm.
+
+
+ Answers for b) without rounding: 
+ ***Minimum waveLength***: 433.69565217391306 nm
+ Minimum Order  23
+
+ ***Largest waveLength***: 665.0 nm
+ Largest Order = 15
  ```
  ### Expected Output with inputs 530 2 10 7.10 400 700:
  ```
@@ -65,17 +81,33 @@
  Calculations:
  ****************************************************
 
+ Question: 
+ Young's double-slit experiment is performed with 530.0-nm light
+ and a distance of 2.0 m between the slits and the screen.
+ The 10.0th interference minimum is observed 7.1 mm from the central maximum.
+  a) Determine the spacing of the slits (in mm).
+
+
  Lambda: 530.0 nm
  L: 2000.0 mm
  m: 9.0
  y: 7.1 mm
  d: 1.4183098591549295E-5 mm
 
- Minimum waveLength: 402.8 nm
- Minimum Order: 25
+ Answer a): d: 1.4183098591549295E-5 mm
 
- Largest waveLength: 671.3333333333334 nm
- Largest Order: 15
+ What If? What are the smallest and largest wavelengths of
+ visible light that will also produce interference minima at this location?
+ Give your answers, in nm, to at least three significant figures.
+ Assume the visible light spectrum ranges from 400 nm to 700 nm.
+
+
+ Answers for b) without rounding: 
+ ***Minimum waveLength***: 402.8 nm
+ Minimum Order  25
+
+ ***Largest waveLength***: 671.3333333333334 nm
+ Largest Order = 15
 
  ```
 
